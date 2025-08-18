@@ -26,7 +26,7 @@
         </figure>
       </section>
       <br />
-      <section>
+      <section id="habilidades">
         <h2>Habilidades</h2>
         <ul>
           <li>Java</li>
@@ -36,26 +36,54 @@
           <li>JavaScript</li>
         </ul>
       </section>
-      <article></article>
-      <section>
+      <section class="projetos">
         <h3>Pequenos projetos</h3>
-        <article>
-          <h4>Saudação com Alert</h4>
-          <p>Descrição do projeto 1.</p>
-        </article>
-        <article>
-          <h4>Mostra e esconde seção</h4>
-          <p>Descrição do projeto 2.</p>
-        </article>
-        <article>
-          <h4>Alteração dinamica</h4>
-          <p>Descrição do projeto 3.</p>
-        </article>
-        <article>
-          <h4>Coleta e mostra dados inseridos</h4>
-          <p>Descrição do projeto 4.</p>
-        </article>
+        <ul class="lista-projetos">
+          <li>
+            <article>
+              <h4>Saudação com Alert</h4>
+              <p>Descrição do projeto 1.</p>
+              <button id="btnSaudacao">Clique para ver saudação</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Mostra e esconde seção</h4>
+              <p>Descrição do projeto 2.</p>
+              <button id="btnToggleSecao">Mostra/Oculta</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Alteração dinamica</h4>
+              <p id="textoDinamico">Descrição do projeto 3.</p>
+              <button id="btnAlterarTexto">Alterar dinamicamente</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Coleta e mostra dados inseridos</h4>
+              <p>Descrição do projeto 4.</p>
+
+              <label for="nome" style="color: white">Nome:</label>
+              <input type="text" id="nome" required />
+              <button id="btnExibirNome">Enviar</button>
+
+              <label id="resultadoNome" style="color: white"></label>
+            </article>
+          </li>
+        </ul>
       </section>
+      <article id="canvasArticle">
+        <h2>Ilustração de habilidade</h2>
+        <canvas
+          id="meuCanvas"
+          width="400"
+          height="120"
+          style="border: 1px solid #ccc">
+          Seu navegador não suporta o elemento canvas.
+        </canvas>
+      </article>
     </main>
 
     <footer>
@@ -63,11 +91,17 @@
       <p>Email: thiag0224@hotmail.com</p>
       <a
         href="https://www.linkedin.com/in/thiago-emanuel-correia-heckler-77ba27268/"
-        target="_blank"
-        >LinkedIn</a
+        target="_blank">
+        <figure>
+          <img src="media/linkedin.png" alt="LinkedIn" />
+        </figure>
+        LinkedIn</a
       >
-      <a href="https://www.instagram.com/thiago.emanuuel/" target="_blank"
-        >Instagram</a
+      <a href="https://www.instagram.com/thiago.emanuuel/" target="_blank">
+        <figure>
+          <img src="media/instagram.png" alt="Instagram" />
+        </figure>
+        Instagram</a
       >
     </footer>
   </body>
