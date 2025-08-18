@@ -26,7 +26,15 @@ Projeto desenvolvido para a disciplina de Webapps, com foco em criar uma página
 - Canvas opcional para ilustração de habilidades
 
 ## 📁 Estrutura de Arquivos
-
+/WebPageSkills  
+├── index.html  
+├── style.css  
+├── script.js  
+└── /media/  
+--├── profile.jpg  
+--├── instagram.jpg  
+--├── linkedin.jpg  
+--└── icone.png
 ## 🚀 Como executar
 
 1. Clone o repositório: `git clone https://github.com/ThiagoHeckler/WebPageSkills.git`
